@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>GameOn</title>
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+    </head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="header">
+            
+                <img class="logo" src="./images/gameon.png" alt="Logo" />
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collection.html">Collection</li></a>
+                <li><a href="contact.html">Contact</li></a>
+            </ul>
+            <div class="search">
+<input type="search" id="site-search" name="q"
+       aria-label="Search" placeholder="Search"></input>
+        <img class="icon" src="images/search.png" alt="Search" />
+                <img class="icon" src="images/cart.png" alt="Cart" />
+                
+            </div>
+        </nav>
+        </header>
+    </div>
+    <section>
+    <div class="ban">
+        <img class="imgjv" src="./images/36307963371_0d7899fa08_z.jpg">
+    </div>
+    <div class="main_content">
+        <h1>Contact</h1>
+        <div class="contact">
+        <div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Your message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input class="btn" id="submit_button" type="submit" value="Send email" />
+</form>
+</div>
+</div>
+    </section>
+    <footer>
+        <div class="footer">
+        <p>copyright 2021</p>
+            <div class="social">
+            <img class="icon" src="images/instaicon.png" alt="Instagram" />
+            </div>
+    </footer>
+</body>
+</html>
