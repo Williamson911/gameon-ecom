@@ -239,10 +239,7 @@
     cursor: pointer;
   }
   
-  .footer .social .icon + .icon {
-    margin-left: 15px;
-  }
-
+ 
   .contact {
       margin: auto;
 }
