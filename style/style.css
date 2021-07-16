@@ -257,7 +257,7 @@
   }
   
   .main_content .card .card_img img {
-    width: 200px;
+    width: 300px;
   }
   
   .main_content .card .card_header {
@@ -270,6 +270,12 @@
   }
 
   .new .main_content .card:hover {
+    background-color: #2b3039;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+  }
+  .top-sellers .main_content .card:hover {
     background-color: #2b3039;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
