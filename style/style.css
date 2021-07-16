@@ -372,6 +372,8 @@
     font-size: 7.5px;
   }
 
-  
+  .mySlides img {
+    height: 100px;
+  }
   
 }
