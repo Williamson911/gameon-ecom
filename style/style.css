@@ -127,6 +127,10 @@
     margin: auto;
 }
 
+.d-flex {
+  display: flex !important;
+}
+
   .dFlex, .header, nav, nav ul, .main_content, .main_content .card, .main_content .card .card_header, .btn, .footer, .footer .social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -385,5 +389,9 @@
 
   nav .search input {
     display: none;
+  }
+  
+  nav .logo {
+    margin-left: 10px;
   }
 }
