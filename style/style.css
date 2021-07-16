@@ -200,8 +200,6 @@
   nav .search {
     padding-left: 100px;
   }
-
-
   
   nav .search .icon {
     width: 15px;
@@ -231,6 +229,10 @@
     border: solid 3px#fe8033;
     color: #fe8033;
     font-size: 5vw;
+  }
+
+  .hits {
+    background-color: #26262C;
   }
 
   
@@ -266,37 +268,87 @@
     color: #fff;
     margin: 25px 0;
   }
-  
-  .main_content .card .card_header h2 {
-    font-size: 18px;
-  }
-  
-  .main_content .card .card_header p {
-    font-size: 14px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    margin: 8px 0;
-  }
-  
-  .main_content .card .card_header .price {
-    font-size: 25px;
-    color: #fe8033;
-  }
-  
-  .main_content .card .card_header .price span {
-    font-size: 15px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  
+
   .main_content .card:hover {
     background-color: #2b3039;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     cursor: pointer;
   }
-  
+
   .main_content .card:hover .btn {
+    background-color: #fe8033;
+    color: #fff;
+  }
+
+  .hits .main_content {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 200px 0 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .hits .main_content .card {
+    width: 40%;
+    border-radius: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin-bottom: 50px;
+  }
+  
+  .hits .main_content .card .card_img {
+    margin-top: -5vw;
+  }
+  
+  .hits .main_content .card .card_img img {
+    width: 500px;
+  }
+  
+  .hits .main_content .card .card_header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #fff;
+    margin: 25px 0;
+  }
+  
+  .hits .main_content .card .card_header h2 {
+    font-size: 18px;
+  }
+  
+  .hits .main_content .card .card_header p {
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 8px 0;
+  }
+  
+  
+  .hits .main_content .card:hover {
+    background-color: #2b3039;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+  }
+
+
+  .main_content .card:hover .btn-square {
     background-color: #fe8033;
     color: #fff;
   }
@@ -306,6 +358,21 @@
     height: 35px;
     font-size: 14px;
     border-radius: 35px;
+    background-color: #2d343e;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    overflow: hidden;
+  }
+
+  .btn-square {
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    text-align: center;
+    padding: 7px;
     background-color: #2d343e;
     color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
