@@ -269,7 +269,7 @@
     margin: 25px 0;
   }
 
-  .main_content .card:hover {
+  .new .main_content .card:hover {
     background-color: #2b3039;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
@@ -332,16 +332,8 @@
     font-size: 18px;
   }
   
-  .hits .main_content .card .card_header p {
-    font-size: 14px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.3);
-    margin: 8px 0;
-  }
-  
   
   .hits .main_content .card:hover {
-    background-color: #2b3039;
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
     cursor: pointer;
@@ -436,6 +428,9 @@
   }
 
   .main_content .card .card_img img {
+    width: 100px;
+  }
+  .hits .main_content .card .card_img img {
     width: 100px;
   }
 
